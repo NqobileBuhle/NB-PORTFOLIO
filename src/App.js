@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import React,{ useEffect }  from "react";
+import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import { Link } from "react-scroll";
+// import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './index.css';
+import Projects from "./Components/Projects";
+
+
+function App (){
+    return(
+        <div className="App">
+    
+            <NavBar />
+            <Home />
+            <About />
+            <Projects />
+            <Contact />
+            
+            
+                 
+          
+            
+            
+
+        </div>
+    );
 }
-
 export default App;
