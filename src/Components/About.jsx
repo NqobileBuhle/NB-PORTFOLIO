@@ -3,9 +3,11 @@ import AboutPic from '../Assets/Nqobile.jpeg'
 
 const About = () => {
   return (
-    <div className="paragraph-container">
+    
+    <section id='About'>
+      <div className="paragraph-container">
       <div className="Asset">
-      <img className="card-img-top" src={AboutPic} alt=" AboutPic"  />
+      {/* <img className="card-img-top" src={AboutPic} alt=" AboutPic"  /> */}
       </div>
       <div className="content">
         <div className="about">
@@ -16,15 +18,27 @@ const About = () => {
         </div>
         <div className="paragraph">
         <p >
-        I am a passionate full-stack software developer with a strong background 
-        in both front-end and back-end development. I specialize in building robust, scalable 
-        web applications using modern technologies and frameworks. With a keen eye for detail and a dedication to delivering high-quality code, I thrive in dynamic, fast-paced environments 
-        where innovation and problem-solving are key.
-        </p>
+         I'm  a passionate and dedicated software developer with a knack for turning 
+         complex problems into elegant, efficient solutions. With a strong foundation 
+         in JavaScript and a keen interest in developing innovative web applications, 
+         I thrive on creating seamless user experiences and robust backend systems.
+         I started my journey in software development 2 years ago, driven by a curiosity for technology 
+         and a desire to make a tangible impact through code. Over the years, 
+         I have honed my skills through various projects, both personal and professional, 
+         constantly learning and adapting to new technologies and methodologies.
+      </p>
+       
+      <div className="skills">
+        <h2>
+          My Skills
+        </h2>
+      </div>
+
         </div>
         
       </div>
     </div>
+    </section>
   )
 }
 

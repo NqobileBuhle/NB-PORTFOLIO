@@ -3,56 +3,67 @@ import React from 'react'
 // import insta from '../Assets/instagram';
 // import imageIn from '../Assets/linkedIn.png';
 
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
+
+
+
 
 const Contact = () => {
   return (
-    <section id="contact">
-                  <div className="connect">
-                    
-                      <div className="connect2">
-                        <h1 className='topic'>LET'S CONNECT</h1>
-                        <p className="lead">
-                          Would love to connect with fellow developers,
-                          employers looking for developers, or anyone looking to
-                          get web development done.
-                        </p>
-                        <p className='details'>
-                          <strong>Name </strong>: Nqobile Biyela
-                        </p>
-                        <p>
-                          <strong>Profile</strong>: Software Developer
-                        </p>
-                        <p>
-                          <strong>Email</strong> nqobilebiyela3@gmail.com
-                        </p>
-                        <p>
-                          <strong>Cell No</strong>:0640291936
-                        </p>
-                        {/* <a
-                          className="instagram"
-                          href="https://www.instagram.com/nqoh_biyela/"
-                          target="_blank"
-                        >
-                          <i className="bi bi-instagram m-2" />
-                        </a>
-                        <a
-                          className="facebook"
-                          href="https://www.linkedin.com/in/nqobile-nobuhle-biyela-4670a24ba/"
-                          target="_blank"
-                        >
-                          <i className="bi bi-linkedin m-2" />
-                        </a>
-                        <a
-                          className="github"
-                          href="https://github.com/NqobileBuhle"
-                          target="_blank"
-                        >
-                          <i className="bi bi-github m-2" />
-                        </a> */}
-                      </div>
-                    </div>
-                
-                </section>
+    <section id="Contact" className='getMe'>
+     
+      <h2>CONTACT ME</h2>
+
+      <div className='contact'>
+        
+
+        <div className='contact-container'>
+          <div className="contact-option">
+            <article className="contact-options">
+
+              <h4 className='text'>email</h4>
+              < MdEmail className="social-icons"></MdEmail>
+              <h5>NqobileBiyela3@gmail.com</h5>
+              <a href="mailto:NqobileBiyela3@gmail.com">Send Email</a>
+            </article>
+
+            <article className="contact-options">
+              <h4 className='text'>Phone</h4>
+              <FaPhoneAlt className="social-icons" />
+              <h5>0786490983</h5>
+              <a href="mailto:NqobileBiyela3@gmail.com">Call Me</a>
+            </article>
+
+            <article className="contact-options">
+
+              <h4 className='text'>Facebook</h4>
+              <CiFacebook className="social-icons" />
+              <h5>NqobileBiyela3@gmail.com</h5>
+              <a href="mailto:NqobileBiyela3@gmail.com">Send Message</a>
+            </article>
+          </div>
+
+          <div className='text-area'>
+            <input className='name' type="text" placeholder='Your Full Name' />
+            <input className='surname' type="text" placeholder='Email' />
+            <textarea className='message' name="" id="" placeholder='Message'></textarea>
+            <button className='btn-sub'>Submit</button>
+
+
+            <br />
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+
+
+    </section>
 
 
   )

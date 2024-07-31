@@ -1,46 +1,56 @@
-  :root{
-      /* background-image: url(./Assets/Nqoh.jpeg);    */
-}
- 
- .navbar{
+  :root {
+    /* background-image: url(./Assets/Nqoh.jpeg);    */
+  }
+
+  .navbar {
     height: 5rem;
     width: 100vw;
-    max-width:75rem ;
+    max-width: 75rem;
     margin: 0 auto;
-    padding :1rem 2 rem;
+    padding: 1rem 2 rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
-}
-.logo{
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
-    color: rgb(38, 163, 132) ;
-    padding-top: 18px;
+  }
 
-}
-.MenuList{
+
+  .logo {
+    
+    object-fit: cover;
+    font-size: 2rem;
+    color: rgb(38, 163, 132);
+    padding-top: 18px;
+    font-weight: bold;
+  
+
+
+
+  }
+
+  .nav-options {
     margin: 2rem;
     cursor: pointer;
-    
-}
-.MenuList :hover{
+    color: white;
+
+  }
+
+  .nav-options:hover {
     color: rgb(38, 163, 132);
     padding-bottom: 0.5rem;
-    border-bottom:2px solid  rgb(38, 163, 132) ; 
-}
+    border-bottom: 2px solid rgb(38, 163, 132);
+  }
 
 
-.MenuImg{
+  .MenuImg {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-}
-.MenuButton{
+  }
+
+  .MenuButton {
     background: white;
     color: black;
     border: none;
@@ -51,7 +61,19 @@
     border-radius: 2rem;
     margin-right: 17px;
     /* border-style:ridge */
-}
+  }
+
+
+
+  .social-icons-1 {
+    font-size: 1.5rem;
+    color: white;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+
+  /* 
 #Intro{
     height: calc(100vh-4rem);
     width: 100vw;
@@ -60,37 +82,65 @@
     overflow:hidden ;
     position: relative;
 }
-  .card-img-top{
+/* 
+ .profilepic{
+    /* margin-left: 700px;
+    margin-bottom: 500px;
+    z-index: -1;
+    border: 10px;
+    border-radius: 50%;
+    height: 40vh;
+    display: inline-block;
+    align-items: right;
+    /* flex-direction: row-reverse; */
+  /* justify-content: center;
+    width: 30%;
+    padding-bottom: 1px;
+    padding:1px;
+    position: relative;
+    display:flow-root; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 100%;
+    height: auto;
+    border-radius: 50%;
+  
+  filter: saturate(1.5);
+  filter: contrast(150%);
+
+}
+  .myPic{
     margin-left: 800px;
     width: 50%;
     object-fit: cover;
-    height: 30vh;
+    height: 100vh;
     z-index: -1;
-    /* margin:10; */
-    padding: 20px;
+    margin:10;
+    padding: 80px;
     padding-bottom: 50px;
-    position: absolute;
-    top: -1rem;
+    position: relative;
+    top: -15rem;
     border:10px;
-    border-radius: 300px; 
+    border-radius: 50px; 
     margin-right: 450px;
+  } */
+  /* position:absolute;
     top: -10rem;
     right: 0;
     z-index: -3;
     object-fit: cover;
-    /* height: 80vh; */
+    height: 80vh;
     width: 40%;
-    padding: 60px;
-    padding-bottom: 50px;
-    margin: 30px;
-  }
-    
-    
-     
-    
-    
- 
-.HireBtn{
+    padding: 80px;
+    padding-bottom: 20px;
+    margin: 10px;*/
+
+
+
+
+
+
+  /* .HireBtn{
     background: white;
     color: black;
     border: none;
@@ -112,14 +162,14 @@
         font-weight: 600;
         flex-direction: column;
         justify-content: center;
-        padding-top: 80px;
-        padding-bottom: 100px;
-        
+        padding-top: 80px; */
+  /* padding-bottom: 100px;} */
 
 
 
- }
- .hello{
+
+
+  /* .hello{
     font-size: 1.7rem;
     font-family: 100;
 
@@ -130,109 +180,315 @@
  .IntroParagraph{
     font-size: medium;
     font-weight: 400;
- } 
- @media screen and(max-width:840px) {
-    .IntroContent{
-        font-size: 10vw;
-    }
-    .hello{
-    font-size: 4.5vw;
-    }
- }
-  
-  .paragraph-container {
+ }  */
+  /* Ensure you include a CSS reset or normalize.css for consistent styling across browsers */
+
+  .intro-section {
     display: flex;
-    position: relative;
-    text-align: left;
-    border-style: groove;
-    height: 80vh;
-    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(30, 30, 30);
+    height: 100vh;
+    /* Make the section full height */
+    width: 100%;
   }
+
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .text-content {
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  .image-content {
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .hello {
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+    font-size: 1.7rem;
+    font-family: 100;
+  }
+
+  .intro-text {
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .intro-name {
+    color: rgb(38, 163, 132);
+    /* Change this color as needed */
+  }
+
+  .intro-paragraph {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .hire-btn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    margin-top: 10px;
+    width: 7rem;
+  }
+
+  .profile-pic {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    filter: contrast(20);
+    filter: saturate(1.5);
+  }
+  .portfolio_container{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
+  }
+
+  .picture{
+    width:20rem;
+  }
+
+  .card{
+    border: 2px solid rgb(38, 163, 132);;
+    border-radius: 5px;
+    
+    
+  }
+
+  /* .portfolio_container{
+    
+  } */
+
+  .card:hover{
+    /* background-color: aqua; */
+    cursor: pointer;
+    border: 0.2rem solid white;
+  }
+
+  .card-disc{
+    padding-left: 3.5rem;
+  }
+  .card-link-1{
+    padding-left: 5rem;
+    color: white;
+    
+  }
+
+  .card-link-2{
+    padding-left: 1rem;
+    color: white;
+  }
+
+
+  
+
+  @media screen and(max-width:840px) {
+    .IntroContent {
+      font-size: 10vw;
+    }
+
+    .hello {
+      font-size: 4.5vw;
+    }
+  }
+
+ 
+
   .Asset {
 
-        background-position: left;
-        background-size: cover;
-        height: 300px;
-        width: 50%;
-        background-position: left;
-        background-size: cover;
-        padding-left: 5px;
-      
+    background-position: left;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+    background-position: left;
+    background-size: cover;
+    padding-left: 5px;
+
   }
-  .card-img-top{
+
+  /* .card-img-top {
     width: 50%;
     height: 65vh;
-    padding:2rem;
+    padding: 2rem;
     padding-top: 20px;
     display: flex;
     align-items: center;
     margin: 20px;
-  }
-  
-  
-  .about{
+  } */
+
+
+  .about {
     align-items: center;
     justify-content: center;
-    color:rgb(38, 163, 132) ;
+    color: rgb(38, 163, 132);
     text-decoration: solid;
-    padding-top: 1rem;
-    
- }
- 
-      .paragraph {
-        text-align: left;
-        text-indent: 0%;
-        align-items:center;
-        display: inline-block;
-        margin-right: 50px;
-        margin: 0;
-        
-        
-         
-    
-        
-        
+    margin-top: -16rem;
+    margin-bottom: 5rem;
+
   }
-      .content {
-        flex: 2;
-        padding-left: 10px;
-        position:relative;
-        align-items: center;
-        padding: 20px 110px 4px 102px;
-        text-align: center;
-        padding-bottom: 10px;
-        text-align: center;
-        align-items: center;
-        gap:1px;
-        text-justify:inter-word;
-        height: 500px;
-        margin-left: 10px;
-        padding-top: 50px;
-      }
-      .topic{
-        align-items: center;
-        text-align: center;
-        color: rgb(38, 163, 132);
-      }
-      .connect{
-        height: 80vh;
-      }
-      .skills{
-        height: 100vh;
-        text-align: center;
-        color: rgb(38, 163, 132);
-        border: 20px;
-        padding-top: 1rem;
+
+  .paragraph {
+    text-align: left;
+    margin-right:15rem;
+    margin-left: 12rem; 
+  }
+
+  .content {
+    flex: 2;
+    padding-left: 10px;
+    position: relative;
+    align-items: center;
+    padding: 20px 110px 4px 102px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    gap: 1px;
+    text-justify: inter-word;
+    height: 500px;
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+
+  .topic {
+    align-items: center;
+    text-align: center;
+    color: rgb(38, 163, 132);
+    margin-top: 20rem;
+  }
+
+  .connect {
+    height: 80vh;
+  }
+
+  .skills {
+    height: 100vh;
+    text-align: center;
+    color: rgb(38, 163, 132);
+    border: 20px;
+    padding-top: 1rem;
+
+  }
+  .project{
+    margin-left: 53rem;
+    color: rgb(38, 163, 132);
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .contact-options{
+    background-color:  rgb(38, 163, 132);
+    margin-top: 3rem; 
+    border-radius: 3px;
+    margin-left: 22rem;
+    padding:5px;
+    color: white;
+  }
+
+  .contact-options:hover{
+    background-color: WHITE;
+    color: rgb(38, 163, 132) ;
+  }
+
+.contact-option{
+  text-align: center;}
+.getMe{
+  color: rgb(38, 163, 132);
+  font-size: 1rem;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+  .contact-container{
+    display: flex;
+  }
+
+  .text-area{
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
     
-      }
-          
+  }
 
+  .name{
+    margin-top: 3.3rem;
+    background-color: white;
+    width: 30rem;
+    height: 1.5rem;
+    border: 2px solid  rgb(38, 163, 132);;
+    border-radius: 0.2rem;
+  
+  }
+  .surname{
+    background-color: white;
+    width: 30rem;
+    height: 1.5rem;
+    border: 2px solid  rgb(38, 163, 132);
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+  }
+
+  .message{
+    background-color: white;
+    width: 30rem;
+    height: 8rem;
+    border: 2px solid  rgb(38, 163, 132);;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+  }
+
+  .btn-sub{
+    background-color: white;
+    width: 6rem;
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    padding: 2px;
+    margin-left: 13rem;
+    margin-top: 2rem;
+  }
+
+  .btn-sub:hover{
+    background-color: rgb(38, 163, 132);
+    width: 9rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 3px;
     
-      
+  }
+a{
+  text-decoration: none;
+  color: white;
+}
+.footer-content{
+  margin-left: 20rem;
+  color: rgb(38, 163, 132);
+  border:2px;
+  margin-top: 10rem;
   
 
-  
-  
-   
-     
+}
 
+.footer-text{
+  align-items: center;
+  margin-left:30rem;
+
+}

@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 
 import './index.css';
 import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 
 function App (){
@@ -16,10 +17,11 @@ function App (){
     
             <NavBar />
             <Home />
-            <About />
+            <About /> 
             <Projects />
-            <Contact />
-            
+            <Contact /> 
+            <Footer />
+             
             
                  
           
