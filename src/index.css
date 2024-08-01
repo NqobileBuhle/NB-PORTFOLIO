@@ -493,7 +493,7 @@ a{
   color: white;
 }
 .footer-content{
-  margin-left: 20rem;
+  margin-left: -30rem;
   color: rgb(38, 163, 132);
   border:2px;
   margin-top: 10rem;
@@ -503,7 +503,7 @@ a{
 
 .footer-text{
   align-items: center;
-  margin-left:30rem;
+  margin-left:60rem;
 
 }
 
