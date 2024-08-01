@@ -15,7 +15,7 @@ const NavBar = () => {
                 <span className="logo">PORTFOLIO</span>
             </div>
             <div>
-                <a className="nav-options" href="#Intro">HOME</a>
+                <a className="nav-options" href="">HOME</a>
                 <a className="nav-options" href="#About">ABOUT</a>
                 <a className="nav-options" href="#Projects">PROJECTS</a>
                 <a className="nav-options" href="#Contact">CONTACT</a>
@@ -23,7 +23,7 @@ const NavBar = () => {
             <div className="social-icons">
                 <a  className="social-icons-1" href="http://wa.me/0685119703" target="_blank"><FaWhatsapp /></a>
                 <a className="social-icons-1" href="https://github.com/NqobileBuhle" target="_blank"><FaGithub /></a>
-                <a className="social-icons-1" href="linkedin.com/in/nqobile-nobuhle-biyela-46702a24b" target="_blank"><CiLinkedin /></a>
+                <a className="social-icons-1" href="https://linkedin.com/in/nqobile-nobuhle-biyela-46702a24b" target="_blank"><CiLinkedin /></a>
             </div>
 
 

@@ -1,5 +1,14 @@
 import React from 'react'
 import AboutPic from '../Assets/Nqobile.jpeg'
+import drone from "../Assets/drone.jpg"
+import css from "../Assets/css.png"
+import html from "../Assets/html.png"
+import javascript from "../Assets/javascript.png"
+import react from "../Assets/React1.jpeg"
+import typescript from "../Assets/typescript.png"
+import plus from "../Assets/c++.png"
+import sql from "../Assets/sql.jpeg"
+import java2 from "../Assets/java.png"
 
 const About = () => {
   return (
@@ -30,16 +39,86 @@ const About = () => {
        
       <div className="skills">
         <h2>
-          My Skills
+          MY SKILLS
         </h2>
+        <div className="skill_container">
+
+
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={css} alt="" />
+    </div>
+   <span className='skill_name1'>CSS</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={html} alt="" />
+    </div>
+    <span className='skill_name1'>HTML</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={javascript} alt="" />
+    </div>
+    <span className='skill_name1'>Javascript</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={react} alt="" />
+    </div>
+    <span className='skill_name1'>React.JS</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={typescript} alt="" />
+    </div>
+    <span className='skill_name1'>Typescript</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={plus} alt="" />
+    </div>
+    <span className='skill_name1'>C++</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={sql} alt="" />
+    </div>
+    <span className='skill_name1'>SQL/PLSQL</span>
+    
+
+     </article>
+     <article className='card2'>
+    <div>
+        <img className='picture2' src={java2} alt="" />
+    </div>
+    <span className='skill_name1'>Java</span>
+    
+
+     </article>
+      
       </div>
 
         </div>
         
+        
       </div>
     </div>
+    </div>
     </section>
-  )
+  );
 }
 
 export default About

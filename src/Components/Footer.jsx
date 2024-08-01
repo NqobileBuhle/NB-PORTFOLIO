@@ -10,7 +10,7 @@ const Footer = () => {
         Would love to meet other software developers to get job done
         <br />
       
-      &copy; <em id="date"></em>Copyright Reserved
+               &copy; <em id="date"></em>Copyright Reserved
       </p>
       
     </footer>
