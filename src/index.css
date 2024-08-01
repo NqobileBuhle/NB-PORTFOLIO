@@ -213,8 +213,7 @@
   }
 
   .hello {
-    /* font-size: 24px; */
-    /* font-weight: bold; */
+   
     font-size: 1.7rem;
     font-family: 100;
   }
@@ -226,7 +225,7 @@
 
   .intro-name {
     color: rgb(38, 163, 132);
-    /* Change this color as needed */
+   
   }
 
   .intro-paragraph {
@@ -252,19 +251,35 @@
     height: 50vh;
     border-radius: 50%;
     filter: contrast(20);
-    filter: saturate(1.5);
+    filter: saturate(1.2);
   }
   .portfolio_container{
     justify-items: center;
+    gap: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-right: 20rem;
     
   }
+  .skill_name1{
+    margin-left: -45rem;
+    text-decoration: none;
+  }
+  .skill_container{
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50%;
+    margin-right: -50%;
+    gap: 3rem;
+  }
+  
 
   .picture{
     width:20rem;
+    height: 15rem;
   }
 
   .card{
@@ -274,12 +289,7 @@
     
   }
 
-  /* .portfolio_container{
-    
-  } */
-
   .card:hover{
-    /* background-color: aqua; */
     cursor: pointer;
     border: 0.2rem solid white;
   }
@@ -289,13 +299,14 @@
   }
   .card-link-1{
     padding-left: 5rem;
-    color: white;
+    color: rgb(255, 255, 255);
     
   }
 
   .card-link-2{
     padding-left: 1rem;
-    color: white;
+    color: rgb(38, 163, 132);
+    
   }
 
 
@@ -308,6 +319,11 @@
 
     .hello {
       font-size: 4.5vw;
+    }
+  }
+  @media screen and(max-width:931px){
+    .skills_container{
+      gap: 8000rem;
     }
   }
 
@@ -325,15 +341,7 @@
 
   }
 
-  /* .card-img-top {
-    width: 50%;
-    height: 65vh;
-    padding: 2rem;
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-    margin: 20px;
-  } */
+  
 
 
   .about {
@@ -386,13 +394,19 @@
     color: rgb(38, 163, 132);
     border: 20px;
     padding-top: 1rem;
+    margin-left: 2rem;
+    
 
   }
   .project{
-    margin-left: 53rem;
+    margin-left: 63%;
+    text-align: center;
+    display: flex;
+    transform: translate(-50%);
     color: rgb(38, 163, 132);
     font-size: 1.5rem;
     margin-bottom: 5rem;
+    margin-top: 10rem;
   }
 
   .contact-options{
@@ -492,3 +506,17 @@ a{
   margin-left:30rem;
 
 }
+
+.picture2{
+  width: 5rem;
+  height: 5rem;
+  margin-left: -45rem;
+  margin-top:5rem;
+}
+.picture3{
+  width: 5rem;
+  height: 5rem;
+  margin-left: -45rem;
+  margin-top:1rem;
+}
+
