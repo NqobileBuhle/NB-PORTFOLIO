@@ -7,10 +7,12 @@ const Footer = () => {
         <hr />
         <p className='footer-text'>
             
-        Would love to meet other software developers to get job done
+        Would love to meet other software developers to get job done.
         <br />
+        <p className='fotter_logo'>
       
-               &copy; <em id="date"></em>Copyright Reserved
+              Nqobile Biyela &copy; <em id="date"></em>Copyright Reserved
+              </p>
       </p>
       
     </footer>
